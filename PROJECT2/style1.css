@@ -1,39 +1,78 @@
-h1{
-  color: crimson;
-  font-size: 400%;
- background-color: transparent; 
- font-family:cursive ;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/10.jpg);
+    background-position: center;
+    background-size: cover;
+      
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 120px ;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li ::after{
+    content: '';
+    height:3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar ul li :hover:after{
+    width: 100%;
+
+}
+
 .aboutpage{
   font-size: 25px;
   padding: 45px;
- 
   margin:auto ;
-  ;
 }
 
 .contactInfo a{
  
- display: flex;
- border-bottom: 1px transparent;
- transition: border-bottom 0.5s; 
+  display: flex;
  color: white;
-  text-decoration: none;
- transition: color 0.5s;
+ text-decoration: none;
+ justify-content: center;
 
 }
 .matter{
   
-  color: black;
-  background-color: antiquewhite;
+  color: white;
   font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
-body {
-  background-image: url("images/1.jpg");
-  background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100% 100%;
- }
+
 
  .contactInfo a{
   margin: 50px 500px ;
