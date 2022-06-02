@@ -1,0 +1,41 @@
+h1{
+  color: crimson;
+  font-size: 400%;
+ background-color: transparent; 
+ font-family:cursive ;
+}
+.aboutpage{
+  font-size: 25px;
+  padding: 45px;
+ 
+  margin:auto ;
+  ;
+}
+
+.contactInfo a{
+ 
+ display: flex;
+ border-bottom: 1px transparent;
+ transition: border-bottom 0.5s; 
+ color: white;
+  text-decoration: none;
+ transition: color 0.5s;
+
+}
+.matter{
+  
+  color: black;
+  background-color: antiquewhite;
+  font-size: 20px;
+}
+body {
+  background-image: url("images/1.jpg");
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+ }
+
+ .contactInfo a{
+  margin: 50px 500px ;
+  
+}
